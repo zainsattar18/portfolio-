@@ -5,6 +5,7 @@ import './App.css';
 import Projects from './components/Projects';
 import About from './components/About'
 import Footer from './components/Footer'
+import Interests from './components/Interests';
 
 function App() {
 
@@ -12,13 +13,10 @@ function App() {
   return (
     <div className="">
       <Header />
-      <About
-      id="about"
-      />
+      <Interests />
+      <About/>
       <Projects />
-      <ContactForm
-      id="contact"
-      />
+      <ContactForm/>
       <Footer />
     </div>
   );
