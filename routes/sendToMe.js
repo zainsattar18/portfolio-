@@ -7,7 +7,7 @@ const transport = {
 
   host: 'smtp.gmail.com',
   port: 587,
-  secure:false,
+  secure:true,
   auth: {
     user: creds.USER,
     pass: creds.PASS
