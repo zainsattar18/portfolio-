@@ -56,16 +56,19 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 class ContactForm extends Component {
+  
 
   handleSubmit(e) {
+    let url;
+        process.env.NODE_ENV === 'production' ?  url = `https://zain-portfolio.herokuapp.com/send`
+            : url = "http://localhost:3000/send"
     e.preventDefault();
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
     axios({
       method: "POST",
-      url: "http://localhost:3000/send",
-      // url: " https://zain-portfolio.herokuapp.com/send",
+      url: `https://zain-portfolio.herokuapp.com/send`,
       data: {
         name: name,
         email: email,
