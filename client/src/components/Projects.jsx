@@ -1,12 +1,12 @@
 import React from 'react'
 import projectData from '../data/projectdata'
-import github2 from '../images/github2.png'
+import github2 from '../images/github.jpeg'
 import click from '../images/click.png'
 import { Link } from 'react-router-dom'
 
 export default function Projects() {
 
-  console.log(projectData)
+  // console.log(projectData)
 
   return (
     <div id="project" className="">
@@ -17,8 +17,8 @@ export default function Projects() {
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 flex justify-center">{data.title}</div>
 
-              <div className="text-gray-700 text-base pb-2">{data.description}</div>
-              <div className="text-gray-700 text-s pb-2">{data.stack}</div>
+              <div className="text-gray-700 text-lg md:text-l pb-2">{data.description}</div>
+              <div className="text-gray-700 font-bold text-xs md:text-sm pb-2">{data.stack}</div>
               <div className="flex justify-evenly">
                 <div className="inline-block m-1">
                   <Link to={{ pathname: data.website_link }} target="_blank" > <img src={click} alt="website" width="20px" /></Link>

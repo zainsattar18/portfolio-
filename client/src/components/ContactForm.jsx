@@ -68,7 +68,7 @@ class ContactForm extends Component {
     const message = document.getElementById('message').value;
     axios({
       method: "POST",
-      url: `https://zain-portfolio.herokuapp.com/send`,
+      url: url,
       data: {
         name: name,
         email: email,

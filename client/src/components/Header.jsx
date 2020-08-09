@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-scroll";
 
 
+
 export default function () {
   return (
     <div>
@@ -22,15 +23,8 @@ export default function () {
               duration={500}
           >About</Link>
           
-          <Link
-            className="block mt-4 lg:inline-block lg:mt-0 text-indigo-600  hover:text-black mr-4"
-              activeClass="active"
-              to=""
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >Resume</Link>
+            <a href="https://www.docdroid.net/It2MHaB/resume-zain-sattar-pdf" rel="noopener noreferrer" target="_blank" className="block mt-4 lg:inline-block lg:mt-0 text-indigo-600  hover:text-black mr-4" >
+              Resume</a>
 
           <Link
             className="block mt-4 lg:inline-block lg:mt-0 text-indigo-600  hover:text-black mr-4"
