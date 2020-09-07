@@ -16,7 +16,7 @@ const projectData = [
   },
   {
     title:"Belay-On",
-    stack: "React, Tailwind, Ruby on Rails, PostgreSQL,Heroku, Surge, Netlify",
+    stack: "React, Tailwind, Ruby on Rails, PostgreSQL, Heroku, Surge, Netlify",
     description:"Full-Stack application that allows the user to create an account and then create a new climb that they've recently completed. Other users are able to leave reviews for any previous climb and give it ratings. Climb On!",
     image:BelayOn,
     website_link:"http://belayon.surge.sh/",
