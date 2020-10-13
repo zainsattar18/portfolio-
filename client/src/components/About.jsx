@@ -24,7 +24,7 @@ export default function () {
 
         <div>
           <div className='text-gray-200 font-medium pt-2'> >> Zain.résumé</div>
-          <div className='text-blue-400 text-xs md:text-sm p-1 pl-2'> => `<Link to={{ pathname: "https://www.docdroid.net/It2MHaB/resume-zain-sattar-pdf" }} target="_blank" >zainsattar.pdf</Link>`</div>
+          <div className='text-blue-400 text-xs md:text-sm p-1 pl-2'> => `<Link to={{ pathname: "https://www.docdroid.net/1Hjr0ce/zain-sattar-resume-pdf" }} target="_blank" >zainsattar.pdf</Link>`</div>
         </div>
 
         <div>

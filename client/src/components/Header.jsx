@@ -23,7 +23,7 @@ export default function () {
               duration={500}
           >About</Link>
           
-            <a href="https://www.docdroid.net/It2MHaB/resume-zain-sattar-pdf" rel="noopener noreferrer" target="_blank" className="block mt-4 lg:inline-block lg:mt-0 text-indigo-600  hover:text-black mr-4" >
+            <a href="https://www.docdroid.net/1Hjr0ce/zain-sattar-resume-pdf" rel="noopener noreferrer" target="_blank" className="block mt-4 lg:inline-block lg:mt-0 text-indigo-600  hover:text-black mr-4" >
               Resume</a>
 
           <Link
